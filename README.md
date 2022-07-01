@@ -24,7 +24,7 @@ create table users
     date varchar(20) null
 );
 
-// 然后将脚本评论的对象的 uid ，名字，最新动态的 dynamicId ，上传到数据表里就可以了*/
+//将脚本评论的用户的 uid ，名字，最新动态的 dynamicId ，上传到数据表里就可以了
 //这个名字是评论时替换 #name# 时用的，可以不是对方的B站名
 //上传最新动态的 dynamicId 是为了防止脚本启动时评论了以前的最新动态，查看 dynamicId 的方法很简单，点开最新的动态，网址栏就能看到 dynamicId 
 
