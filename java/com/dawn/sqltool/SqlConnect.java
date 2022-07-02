@@ -3,8 +3,6 @@ package com.dawn.sqltool;
 import com.dawn.mylog.LogOutput;
 import com.dawn.pojo.Configure;
 import com.dawn.readtool.Readconf;
-import com.mysql.cj.jdbc.exceptions.CommunicationsException;
-
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;

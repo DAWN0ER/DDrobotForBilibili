@@ -13,6 +13,7 @@ import com.dawn.sqltool.Update;
 
 import java.util.Date;
 import java.util.List;
+import java.util.Random;
 
 public class main {
     public static void main(String[] args) throws Exception {
@@ -46,7 +47,8 @@ public class main {
                 }
 
                 //休眠防止网页爬崩溃
-                Thread.sleep(2*1000l);
+                long time = new Random().nextLong(1000) +2000L;
+                Thread.sleep(time);
             }
 
             querry.close();
